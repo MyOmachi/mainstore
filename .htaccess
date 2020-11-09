@@ -5,11 +5,11 @@
 # Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /gmcstore/
+RewriteBase /mainstore/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /gmcstore/index.php [L]
+RewriteRule . /mainstore/index.php [L]
 </IfModule>
 
 # END WordPress
